@@ -1,14 +1,26 @@
 import os
 
+ 
+
 if __name__ == "__main__":
 
-try:
+ 
 
-os.system("git pull")
+   try:
 
-__import__("UID").makedirectory()
+ 
 
-except Exception as e: 
+       os.system("git pull")
+ 
 
-exit(str(e))
+       __import__("UID").makedirectory()
 
+ 
+
+   except Exception as e: 
+
+ 
+
+       exit(str(e))
+
+ 
